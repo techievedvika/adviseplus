@@ -1,0 +1,54 @@
+.containerBox{
+    background-color: blue;
+    height: 300px;
+}
+@keyframes scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+  }
+  
+  .animate-scrolling-text {
+    animation: scroll 10s linear infinite;
+  }
+  .fullWidth {
+    width:100%
+  }
+  .btnWidth{
+    width:5rem
+  }
+  .primaryone {
+    background-color:#ff4a17;
+  }
+  .primarytwo{
+    background-color: #14212b;
+  }
+  .white{
+    background-color: white;
+  }
+  .leftBefore{
+    left:6rem
+  }
+  .leftAfter{
+    left:0
+  }
+  .dropMenu{
+    display:none;
+   
+
+  }
+  .dropBtn:hover {
+    color:#ff4a17
+  }
+  .dropBtn:hover .dropMenu{
+    display: block;
+  }
+  .dropMenu p{
+    padding: 12px 6px;
+    width:100%;
+    color:black
+
+  }
+  .dropMenu p:hover{
+    background-color: #ff4a17;
+    color:white
+  }
