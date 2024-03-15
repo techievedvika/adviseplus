@@ -1,12 +1,12 @@
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img from '../assets/carousel-1.jpeg'
-import cr2 from '../assets/carousel-2.jpeg'
 import ButtonComp from './Button';
 import img1 from '../assets/carousel/1.jpeg';
 import img2 from '../assets/carousel/2.jpeg';
 import img3 from '../assets/carousel/3.jpeg';
 
 function CarouselComp() {
+  
   const images = [img1,img2,img3];
   return (
     <Carousel className='w-full'>
@@ -15,7 +15,7 @@ function CarouselComp() {
         key={ind}
        className='relative'
       >
-      <img  className='w-full lg:max-h-1/5 max-[440px]:h-[400px]  opacity-60' src={a}/>
+      <img alt='img'  className='w-full lg:max-h-1/5 max-[440px]:h-[400px]  opacity-60' src={a}/>
         <Carousel.Caption
            style={{
             position: 'absolute',

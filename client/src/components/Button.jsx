@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 const ButtonComp = (props) => {
     let{color1,color2,color3,text,textcolor,textafter} = props;
@@ -34,7 +34,7 @@ const ButtonComp = (props) => {
               bg:color1,
               margin:'3'
               })}  
-          className={`bg-${position.bg} p-0 h-16 py-2 transition-all  ps-3 items-center  w-52 max-[440px]:w-44 duration-1000 ease-in-out  overflow-visible text-white text-xl max-[440px]:text-lg  font-semibold relative flex px-2  text-center rounded-full `}>
+          className={`bg-${position.bg} p-0 h-16 py-2 pl-3 transition-all  ps-3 items-center  w-52 max-[440px]:w-44 duration-1000 ease-in-out  overflow-visible text-white text-xl max-[440px]:text-lg  font-semibold relative flex  text-center rounded-full `}>
         
          <div className='z-1 my-3'>
          <span style={{margin:'4'}} className={`z-1  transition-all  ease-in-out duration-300 text-${position.text}`}>{text}</span>

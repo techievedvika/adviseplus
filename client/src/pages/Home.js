@@ -16,7 +16,7 @@ const Home = () => {
         <div className='2'>
             <div className='lg:grid lg:grid-flow-col lg:col-span-2 my-6 py-4 pt-36  lg:px-12'>
                 <div className='hidden lg:block '>
-                  <img src='https://caportal.saginfotech.com/caportal/ca-template-88/images/about.png'/>
+                  <img alt='img' src='https://caportal.saginfotech.com/caportal/ca-template-88/images/about.png'/>
                 </div>
                 <div className='lg:mx-2 flex flex-col max-[440px]:text-center justify-center items-center lg:justify-stretch '>
                     <h3 className='text-2xl text-start   text-primaryone font-semibold'>
@@ -57,7 +57,7 @@ Service For Business
                 <div className='grid px-24 max-[440px]:px-10 w-full text-white lg:grid-flow-col lg:col-span-3 gap-5'>
                     <div className='border lg:w-full'>
                       <div>
-                        <img className=' w-full bg-contain' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NLVPqMZKG4xSg7jJQONFTyKVi_44mJTF9w&usqp=CAU'/>
+                        <img alt='img' className=' w-full bg-contain' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NLVPqMZKG4xSg7jJQONFTyKVi_44mJTF9w&usqp=CAU'/>
                       </div>
                           <div className='bg-primarytwo  w-full flex p-6 py-3 justify-between'>
                             <FontAwesomeIcon className='text-4xl hover:translate-x-1 transition duration-100 ease-out hover:text-5xl' icon={faArrowRight} />
@@ -67,7 +67,7 @@ Service For Business
                     </div>
                     <div className='border lg:w-full'>
                       <div>
-                        <img className=' w-full bg-contain' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NLVPqMZKG4xSg7jJQONFTyKVi_44mJTF9w&usqp=CAU'/>
+                        <img alt='img' className=' w-full bg-contain' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NLVPqMZKG4xSg7jJQONFTyKVi_44mJTF9w&usqp=CAU'/>
                       </div>
                           <div className='bg-primarytwo  w-full flex p-6 py-3 justify-between'>
                             <FontAwesomeIcon className='text-4xl hover:translate-x-1 transition duration-100 ease-out hover:text-5xl' icon={faArrowRight} />
@@ -77,7 +77,7 @@ Service For Business
                     </div>
                     <div className='border lg:w-full'>
                       <div>
-                        <img className=' w-full bg-contain' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NLVPqMZKG4xSg7jJQONFTyKVi_44mJTF9w&usqp=CAU'/>
+                        <img alt='img' className=' w-full bg-contain' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NLVPqMZKG4xSg7jJQONFTyKVi_44mJTF9w&usqp=CAU'/>
                       </div>
                           <div className='bg-primarytwo  w-full flex p-6 py-3 justify-between'>
                             <FontAwesomeIcon className='text-4xl hover:translate-x-1 transition duration-100 ease-out hover:text-5xl' icon={faArrowRight} />
@@ -144,22 +144,22 @@ Service For Business
                     </div>
                     <div className='flex flex-col gap-6  items-center justify-center lg:flex-row flex-wrap '>
                         <div>
-                          <img src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
+                          <img alt='img' src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
                           <h5 className='text-center my-2'>Name</h5>
                           <h6 className='font-bold text-center text-secondary'>Position</h6>
                         </div>
                         <div>
-                          <img src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
+                          <img alt='img' src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
                           <h5 className='text-center my-2'>Name</h5>
                           <h6 className='font-bold text-center text-secondary'>Position</h6>
                         </div>
                         <div>
-                          <img src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
+                          <img alt='img' src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
                           <h5 className='text-center my-2'>Name</h5>
                           <h6 className='font-bold text-center text-secondary'>Position</h6>
                         </div>
                         <div>
-                          <img src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
+                          <img alt='img' src='https://caportal.saginfotech.com/caportal/ca-template-88/images/team-1.jpg'/>
                           <h5 className='text-center my-2'>Name</h5>
                           <h6 className='font-bold text-center text-secondary'>Position</h6>
                         </div>
@@ -267,7 +267,7 @@ Service For Business
                     </div>
               </div>
               <div>
-                <img src='https://caportal.saginfotech.com/caportal/ca-template-88/images/choose-image.svg'/>
+                <img alt='img' src='https://caportal.saginfotech.com/caportal/ca-template-88/images/choose-image.svg'/>
               </div>
             </div>
         </div>

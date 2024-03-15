@@ -1,17 +1,16 @@
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import ButtonComp from './Button';
 
 const NavbarComp = () => {
-  const[showdd1,setShowDD1]=useState(false);
-  const[showdd2,setShowDD2]=useState(false);
-  const[showdd3,setShowDD3]=useState(false);
-  const[showdd4,setShowDD4]=useState(false);
+  // const[showdd1,setShowDD1]=useState(false);
+  // const[showdd2,setShowDD2]=useState(false);
+  // const[showdd3,setShowDD3]=useState(false);
+  // const[showdd4,setShowDD4]=useState(false);
 
   const menuArr = ['Home','Services','GST','Reach Us']
  
